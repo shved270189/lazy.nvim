@@ -6,6 +6,8 @@ return {
         sources = {
           explorer = {
             matcher = { fuzzy = true },
+            hidden = true,
+            ignored = true,
           },
         },
       },
